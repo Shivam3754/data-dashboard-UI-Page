@@ -1,0 +1,21 @@
+.layout {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ /* Full height of the viewport */
+ max-width: 85rem;
+ margin: auto;
+ padding: 0 24px 0 80px;
+
+ @media screen and (min-width: 1700px) {
+  padding: 0 24px 0 0;
+  max-width: 92rem;
+ }
+}
+
+.content {
+ flex: 1;
+ /* Allows the content area to expand and fill space */
+ padding-bottom: 5rem;
+ /* Prevents content from overlapping the footer */
+}

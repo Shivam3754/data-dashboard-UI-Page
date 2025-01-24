@@ -1,0 +1,12 @@
+.main{
+ padding: 0 24px;
+ max-width: 85rem;
+ margin: auto;
+}
+
+.header {
+ display: flex;
+ justify-content: center;
+ padding: 16px;
+ background-color: var(--header-bg, #fff);
+}
